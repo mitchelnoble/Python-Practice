@@ -10,3 +10,5 @@ person["city"] = "New York" #adds a new key-value pair
 print(person["name"]) #output: Alice
 del person["age"] #removing a key-value pair by just targeting the key
 print(person)
+
+#methods also include: get, keys, values, items to access and manipulate dictionary contents
