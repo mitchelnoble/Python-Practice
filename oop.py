@@ -20,3 +20,15 @@ print(generic_animal.speak()) #Output: Generic Animal makes a sound.
 print(dog.speak()) #Output: Buddy barks
 
 #the Dog class inherits the animal class's function "speak" and modifies it. If dog.speak is used it "barks" and if generic_animal.speak is used it "makes a sound"
+
+#Python's OOP model uses class, __init__ for constructors, and self to refer to instance attributes
+
+class Calculator:
+  def add(self, a, b):
+    return a + b
+  def multiply(self, a, b):
+    return a * b
+  
+calc = Calculator()
+print(calc.add(5,3)) #Output: 8
+print(calc.multiply(5,3)) #Output: 15
